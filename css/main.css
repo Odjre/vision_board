@@ -1,0 +1,78 @@
+/* ========== BASE STYLES ========== */
+body {
+	background: #E8E8E8;
+}
+
+/* ========== BLOCK STYLES ========== */
+
+#vision-board {
+	height: 850px;
+	width: 1200px;
+	overflow: auto;
+	background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px auto;
+    color: #3B3B3B;
+}
+
+.block {
+	box-sizing: border-box;
+	width: 400px;
+	float: left;
+}
+
+.small-block {
+	height: 210px;
+	padding: 20px 40px;
+}
+
+.large-block {
+	height: 430px;
+	padding: 70px 40px;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.light-bg {
+	background: #FFFFFF;
+}
+
+.dark-bg {
+	background: #3B3B3B;
+	color: #FFFFFF;
+}
+
+.title {
+	font-size: 30px;
+	margin: 10px 0;
+}
+
+.marker { 
+	font-family: 'Permanent Marker', cursive;
+	font-weight: normal;
+}
+
+.highlight {
+	background: #FFF44F;
+	padding: 5px 15px;
+}
+
+strong {
+	font-size: 38px;
+	text-transform: none;
+	line-height: 38px;
+}
+
+ .top-padding {
+	padding-top: 40px;
+}  
